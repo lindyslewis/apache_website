@@ -6,7 +6,7 @@
 - calls aws cloudformation create-stack
 - passes in the CloudFormation template JSON file
 
-# apache_website_cf_template.JSON
+# apache_website_cf_template.json
 
  - LaunchConfig with UserData
  - UserData installs and runs apache; clones this repo (gets index.html)
